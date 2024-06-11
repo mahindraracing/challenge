@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Jost';
+    box-sizing: border-box;
+}
+
+nav, ul {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #BC2D2D;
+    padding: 10px;
+}
+
+li, a {
+    color: #000;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+
+#logo {
+    font-size: 3rem;
+}
+
+#mahindra {
+    font-family: 'Chakra Petch';
+    color: #BC2D2D
+}
+
+.sec1 { 
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+
+.mahindra-bv {
+    font-family: 'Chakra Petch';
+    margin: 1rem;
+    align-items: center;
+    color: #fefefe;
+}
