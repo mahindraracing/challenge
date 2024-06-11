@@ -47,3 +47,20 @@ h1 {
     .stats_realtime {
     font-size: 1rem;
 }
+
+.impacts {
+    text-align: center;
+    
+}
+
+.negativos {
+    text-align: center;
+    color: rgb(163, 31, 31);
+    font-family: 'Chakra Petch';
+}
+
+.positivos {
+    text-align: center;
+    color: rgb(31, 163, 31);
+    font-family: 'Chakra Petch';
+}

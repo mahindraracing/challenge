@@ -22,6 +22,7 @@ li, a {
 }
 
 #logo {
+    font-family: 'Chakra Petch';
     font-size: 3rem;
 }
 
@@ -133,5 +134,38 @@ li, a {
 
 .informacoes > .stats_realtime {
     margin-inline: 1rem;
+}
+
+.positions {
+    margin: 0;
+}
+
+.stats_info {
+    display: flex;
+    justify-content: center;
+}
+
+.teste {
+    flex-direction: column;
+}
+
+.posicoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16rem;
+    border: 1px solid #BC2D2D;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.positions {
+    text-align: left;
+}
+
+.rank {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
