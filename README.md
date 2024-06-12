@@ -126,3 +126,4 @@ Este código `JavaScript` implementa um `slideshow`. Ele exibe uma sequência de
 
 ## Objetivo
 
+O objetivo é melhorar o reconhecimento da marca `Mahindra` entre os entusiastas do automobilismo, `capitalizando plenamente sua participação na Fórmula E`. Além disso, busca-se desenvolver uma estratégia digital robusta para aumentar o engajamento com o público, criando oportunidades valiosas para interação e fidelização. Outra meta é superar a visibilidade limitada na `Fórmula E`, atraindo leads qualificados que possam ser convertidos em clientes futuros para os produtos e serviços da empresa.
