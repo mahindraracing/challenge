@@ -12,7 +12,7 @@
 
 # Plataforma de Streaming usando JS!
 
-<img src="docs/img/png_readme.png">
+<img src="assets/img/gif.gif">
 
 
 ## Explicando os <a href="https://github.com/mahindraracing/challenge/tree/main/assets/js">Códigos</a>
@@ -93,6 +93,35 @@ document.querySelector('.btn-login').addEventListener('click', function() {
 ```
 
 Este trecho de código `JavaScript` trata da autenticação de login. Quando o botão de login é clicado, ele captura os `valores dos campos de entrada de email e senha`. Em seguida, verifica se esses valores correspondem aos valores específicos esperados (um email 'challenge@email.email' e uma senha '123'). Se as credenciais estiverem corretas, exibe um `alerta informando que o login foi realizado e redireciona o usuário para a página`. Caso contrário, exibe um alerta indicando que o email ou a senha está incorreta.
+
+## `Slideshow (onde é simulado uma Stream)`
+
+```JS
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  const slides = document.getElementsByClassName("slide");
+  
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  
+  slideIndex++;
+  
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }  
+  
+  slides[slideIndex - 1].style.display = "block";  
+  setTimeout(showSlides, 7000); 
+}
+```
+
+
+
+Este código `JavaScript` implementa um `slideshow`. Ele exibe uma sequência de slides, alternando automaticamente a `cada 7 segundos`. O código utiliza uma variável `slideIndex` para rastrear o slide atual. A função `showSlides()` oculta todos os slides e mostra apenas o próximo. Quando atinge o último slide, retorna ao primeiro. O slideshow continua automaticamente em um loop `infinito`.
 
 
 ## Objetivo
